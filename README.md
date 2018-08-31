@@ -38,6 +38,13 @@ frichti.getCustomerAnalytics()
 ```javascript
 frichti.getAddresses()
 ```
+S'il n'y a qu'une seule adresse enregistrée alors elle est settée comme selectedAddress
+
+### Setter une addresse
+
+```javascript
+frichti.setSelectedAddress(address)
+```
 
 ### Récupérer tous les créneaux de livraison
 
@@ -49,4 +56,16 @@ frichti.getSlots()
 
 ```javascript
 foodcheri.getMenu()
+```
+
+### Récupérer le panier
+
+```javascript
+foodcheri.getCart(addressId = this.selectedAddress.addressId)
+```
+
+### Récupérer les offres promotionnelles
+
+```javascript
+foodcheri.getOffers(addressId = this.selectedAddress.addressId)
 ```
