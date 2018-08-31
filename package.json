@@ -1,0 +1,31 @@
+{
+  "name": "node-frichti",
+  "version": "1.0.0",
+  "description": "Frichti API wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremie Zarca",
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzarca01/node-frichti.git"
+  },
+  "keywords": [
+    "frichti",
+    "node",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/jzarca01/node-frichti/issues"
+  },
+  "homepage": "https://github.com/jzarca01/node-frichti#readme"
+}
